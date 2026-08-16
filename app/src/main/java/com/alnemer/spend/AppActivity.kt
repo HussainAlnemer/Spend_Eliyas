@@ -1209,7 +1209,7 @@ fun ManualEntryBlock(onChanged: () -> Unit) {
  * on that category to Uncategorized and drops any merchant rules pointing at it first, so the
  * DB is never left with a dangling categoryId.
  */
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
 fun CategoriesScreen(onBack: () -> Unit, onChanged: () -> Unit) {
     val ctx = LocalContext.current
