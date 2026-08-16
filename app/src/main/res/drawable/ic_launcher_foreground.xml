@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dollar sign, not the riyal sign: Saudi Arabia's new official riyal glyph (Unicode U+20C1,
+     added 2025) still has patchy font support on-device, and its calligraphic shape isn't
+     something safe to hand-draw as vector paths without a visual preview. This is a blocky,
+     geometric $ built the same way as the old bar-chart icon (straight rectangles, one existing
+     arc technique) rather than smooth curves, for the same reason. Ask for a riyal-sign attempt
+     if you'd rather see that instead once this is on the phone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#8FD6B8" android:pathData="M50,12 L58,12 L58,96 L50,96 Z" />
+    <path android:fillColor="#8FD6B8" android:pathData="M36,18 L72,18 L72,30 L36,30 Z" />
+    <path android:fillColor="#8FD6B8" android:pathData="M36,30 L48,30 L48,48 L36,48 Z" />
+    <path android:fillColor="#8FD6B8" android:pathData="M36,48 L72,48 L72,60 L36,60 Z" />
+    <path android:fillColor="#D9A94E" android:pathData="M60,60 L72,60 L72,78 L60,78 Z" />
+    <path android:fillColor="#8FD6B8" android:pathData="M36,78 L72,78 L72,90 L36,90 Z" />
+</vector>
